@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/skus/7423345?"
+    },
+    "response": {
+      "body": "{\"sku\":{\"id\":7423345,\"ean\":\"\",\"pn\":\"MKQL2B/A MKQM2B/A MKQK2B/A MKQJ2B/A MKQJ2GH/A MKQK2GH/A MKQL2GH/A MKQM2GH/A MKQL2ZD/A MKQJ2ZD/A MKQK2ZD/A MKQK2PM/A MKQM2ZD/A\",\"name\":\"iPhone 6s (16GB)\",\"display_name\":\"Apple iPhone 6s (16GB)\",\"category_id\":40,\"first_product_shop_info\":null,\"click_url\":null,\"price_max\":789.0,\"price_min\":603.89,\"reviewscore\":4.63158,\"shop_count\":70,\"plain_spec_summary\":\"SmartPhone,  Single, Οθόνη: 4.7\\\", CPU: 1840 MHz, Πυρήνες CPU: 2, RAM: 2 GB,  Μνήμη Αποθήκευσης: 16 GB,    Δίκτυο Σύνδεσης: 4G, Λειτουργικό Σύστημα: iOS, Μπαταρία: 1715 mAh\",\"manufacturer_id\":356,\"future\":false,\"reviews_count\":19,\"virtual\":false,\"images\":{\"main\":\"http://c.scdn.gr/images/sku_main_images/007423/7423345/medium_20150910105706_apple_iphone_6s_16gb.jpeg\",\"alternatives\":[\"http://d.scdn.gr/images/sku_images/014847/14847025/20150910102252_975df23e.jpeg\",\"http://a.scdn.gr/images/sku_images/014847/14847101/20150910104748_86d6b43d.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847104/20150910104831_d2347485.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847026/20150910102300_eaabe05b.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847103/20150910104825_f9753234.jpeg\",\"http://d.scdn.gr/images/sku_images/014847/14847100/20150910104733_b7d8cfcc.jpeg\",\"http://d.scdn.gr/images/sku_images/014847/14847086/20150910103920_f8042167.jpeg\",\"http://a.scdn.gr/images/sku_images/014847/14847088/20150910104003_f477adb6.jpeg\",\"http://a.scdn.gr/images/sku_images/014847/14847112/20150910104933_b44de182.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847092/20150910104149_c5649a8f.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847124/20150910105642_3669aafa.jpeg\",\"http://d.scdn.gr/images/sku_images/014847/14847087/20150910103949_d93c3eda.jpeg\",\"http://d.scdn.gr/images/sku_images/014847/14847113/20150910104951_48b3eb2d.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847108/20150910104847_610650f8.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847109/20150910104902_49619c04.jpeg\"]},\"web_uri\":\"https://skroutz.gr/s/7423345/Apple-iPhone-6s-16GB.html\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455836460",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"a52cfe48d23f8bd6ab46f551af3ee434\"",
+        "X-Request-Id": "313402102",
+        "X-Runtime": "0.019047",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "2143",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 23:00:44 GMT",
+        "X-Varnish": "313402102",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb1",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

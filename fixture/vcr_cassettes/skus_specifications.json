@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/skus/7423345/specifications?"
+    },
+    "response": {
+      "body": "{\"specifications\":[{\"id\":569,\"name\":\"Τύπος Οθόνης\",\"unit\":\"\",\"values\":[\"Retina HD display with 3D Touch, LED IPS LCD Multi‑Touch display, 16M colors\"]},{\"id\":573,\"name\":\"Ισχύς Βασικού Επεξεργαστή\",\"unit\":\"MHz\",\"values\":[\"1840\"]},{\"id\":574,\"name\":\"Βασική Κάμερα\",\"unit\":\"MP\",\"values\":[\"12\"]},{\"id\":575,\"name\":\"Λειτουργικό Σύστημα\",\"unit\":\"\",\"values\":[\"iOS\"]},{\"id\":579,\"name\":\"Εσωτερική Μνήμη Αποθήκευσης\",\"unit\":\"GB\",\"values\":[\"16\"]},{\"id\":580,\"name\":\"Card Slot\",\"unit\":\"\",\"values\":[\"0\"]},{\"id\":583,\"name\":\"Δευτερεύουσα Κάμερα\",\"unit\":\"MP\",\"values\":[\"5\"]},{\"id\":589,\"name\":\"WiFi\",\"unit\":\"\",\"values\":[\"1\"]},{\"id\":601,\"name\":\"Διάρκεια Αναμονής\",\"unit\":\"hrs\",\"values\":[\"240\"]},{\"id\":602,\"name\":\"Διάρκεια Ομιλίας\",\"unit\":\"hrs\",\"values\":[\"14\"]},{\"id\":603,\"name\":\"Διαστάσεις\",\"unit\":\"mm\",\"values\":[\"138.3 x 67.1 x 7.1\"]},{\"id\":604,\"name\":\"Βάρος\",\"unit\":\"gr\",\"values\":[\"143\"]},{\"id\":906,\"name\":\"Τύπος SIM\",\"unit\":\"\",\"values\":[\"Single\"]},{\"id\":1424,\"name\":\"Πυρήνες Επεξεργαστή\",\"unit\":\"\",\"values\":[\"2\"]},{\"id\":1426,\"name\":\"Δείκτης SAR (Head)\",\"unit\":\"W/kg\",\"values\":[]},{\"id\":1521,\"name\":\"Τύπος Διασύνδεσης\",\"unit\":\"\",\"values\":[\"NFC\",\"USB\"]},{\"id\":1522,\"name\":\"Ανάλυση Οθόνης\",\"unit\":\"pixels\",\"values\":[\"1334 x 750\"]},{\"id\":1526,\"name\":\"Μέγεθος Οθόνης\",\"unit\":\"\\\"\",\"values\":[\"4.7\"]},{\"id\":1528,\"name\":\"Έτος Κυκλοφορίας\",\"unit\":\"\",\"values\":[\"2015\"]},{\"id\":1530,\"name\":\"Τρόπος Χειρισμού\",\"unit\":\"\",\"values\":[\"Οθόνη αφής (Touch screen)\"]},{\"id\":1792,\"name\":\"Τύπος Κινητού\",\"unit\":\"\",\"values\":[\"SmartPhone\"]},{\"id\":2066,\"name\":\"Εσωτερική Μνήμη RAM\",\"unit\":\"MB\",\"values\":[\"2048\"]},{\"id\":2067,\"name\":\"Ενσωματωμένο Flash\",\"unit\":\"\",\"values\":[\"1\"]},{\"id\":3737,\"name\":\"Χωρητικότητα Μπαταρίας\",\"unit\":\"mAh\",\"values\":[\"1715\"]},{\"id\":3738,\"name\":\"Αποσπώμενη Μπαταρία\",\"unit\":\"\",\"values\":[\"0\"]},{\"id\":4315,\"name\":\"Προστασία\",\"unit\":\"\",\"values\":[]},{\"id\":4316,\"name\":\"Αισθητήρες\",\"unit\":\"\",\"values\":[\"Βαρόμετρο\",\"Γυροσκόπιο\",\"Δακτυλικό Αποτύπωμα\",\"Proximity\",\"Accelerometer\",\"Πυξίδα\"]},{\"id\":4319,\"name\":\"Λειτουργία\",\"unit\":\"\",\"values\":[]},{\"id\":4321,\"name\":\"Δίκτυο Σύνδεσης\",\"unit\":\"\",\"values\":[\"4G\"]}]}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "98",
+        "X-RateLimit-Reset": "1455836520",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"2484994f8d29c09c7625b7922b0f5fab\"",
+        "X-Request-Id": "1800271155",
+        "X-Runtime": "0.029969",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "2511",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 23:01:44 GMT",
+        "X-Varnish": "1800271155",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

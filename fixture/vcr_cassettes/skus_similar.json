@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/skus/7423345/similar?"
+    },
+    "response": {
+      "body": "{\"skus\":[{\"id\":5307730,\"ean\":\"\",\"pn\":\"MG472ZD/A MG472GH/A MG482B/A MG482ZD/A MG472QL/A MG4N2LL/A MG472QN/A MG492GH/A MG482GH/A MG492ZD/A MG542LL/A MG562LL/A MG552LL/A MG6A2LL/A MG692LL/A M\",\"name\":\"iPhone 6 (16GB)\",\"display_name\":\"Apple iPhone 6 (16GB)\",\"category_id\":40,\"first_product_shop_info\":null,\"click_url\":null,\"price_max\":726.87,\"price_min\":539.39,\"reviewscore\":4.38365,\"shop_count\":40,\"plain_spec_summary\":\"SmartPhone,  Single, Οθόνη: 4.7\\\", CPU: 1380 MHz, Πυρήνες CPU: 2, RAM: 1 GB,  Μνήμη Αποθήκευσης: 16 GB,    Δίκτυο Σύνδεσης: 4G, Λειτουργικό Σύστημα: iOS, Μπαταρία: 1810 mAh\",\"manufacturer_id\":356,\"future\":false,\"reviews_count\":159,\"virtual\":false,\"images\":{\"main\":\"http://b.scdn.gr/images/sku_main_images/005307/5307730/medium_1.png\",\"alternatives\":[\"http://b.scdn.gr/images/sku_images/013539/13539082/2.png\",\"http://b.scdn.gr/images/sku_images/013539/13539083/3.png\",\"http://d.scdn.gr/images/sku_images/013539/13539084/4.png\",\"http://d.scdn.gr/images/sku_images/013539/13539085/5.png\",\"http://c.scdn.gr/images/sku_images/013539/13539086/6.png\",\"http://d.scdn.gr/images/sku_images/013539/13539087/8.png\",\"http://b.scdn.gr/images/sku_images/013539/13539088/10.png\",\"http://d.scdn.gr/images/sku_images/013539/13539089/7.png\",\"http://d.scdn.gr/images/sku_images/013539/13539090/12.png\",\"http://d.scdn.gr/images/sku_images/013539/13539091/9.png\",\"http://c.scdn.gr/images/sku_images/013539/13539092/Untitled13.png\",\"http://a.scdn.gr/images/sku_images/013539/13539093/11.png\"]},\"web_uri\":\"https://skroutz.gr/s/5307730/Apple-iPhone-6-16GB.html\"},{\"id\":3783654,\"ean\":\"\",\"pn\":\"ME432GB/A ME433GB/A ME434GB/A ME432DN/A ME433DN/A ME434DN/A ME432B/A ME433B/A ME434B/A ME432KS/A ME307LL/A ME298LL/A ME432CS/A ME306LL/A ME323LL/A ME2\",\"name\":\"iPhone 5S (16GB)\",\"display_name\":\"Apple iPhone 5S (16GB)\",\"category_id\":40,\"first_product_shop_info\":null,\"click_url\":null,\"price_max\":567.0,\"price_min\":334.9,\"reviewscore\":4.2328,\"shop_count\":57,\"plain_spec_summary\":\"SmartPhone,  Single, Οθόνη: 4\\\", CPU: 1300 MHz, Πυρήνες CPU: 2, RAM: 1 GB,  Μνήμη Αποθήκευσης: 16 GB,    Δίκτυο Σύνδεσης: 4G, Λειτουργικό Σύστημα: iOS, Μπαταρία: 1560 mAh\",\"manufacturer_id\":356,\"future\":false,\"reviews_count\":189,\"virtual\":false,\"images\":{\"main\":\"http://d.scdn.gr/images/sku_main_images/003783/3783654/medium_iphone5s-gallery1-2013.jpg\",\"alternatives\":[\"http://b.scdn.gr/images/sku_images/012176/12176629/iphone5s-gallery2-2013\",\"http://d.scdn.gr/images/sku_images/012176/12176643/iphone5s-gallery3-2013\",\"http://d.scdn.gr/images/sku_images/012176/12176654/iphone5s-gallery5-2013\",\"http://b.scdn.gr/images/sku_images/012176/12176660/iphone5s-gallery6-2013\",\"http://c.scdn.gr/images/sku_images/012176/12176664/iphone5s-gallery8-2013\",\"http://a.scdn.gr/images/sku_images/012279/12279003/iphone5s-gallery4-2013\",\"http://b.scdn.gr/images/sku_images/012279/12279027/iphone5s-gallery1-2013\"]},\"web_uri\":\"https://skroutz.gr/s/3783654/Apple-iPhone-5S-16GB.html\"},{\"id\":7424465,\"ean\":\"\",\"pn\":\"MKU12B/A MKU22B/A MKU32B/A MKU52B/A MKU12GH/A MKU22GH/A MKU32GH/A MKU52GH/A MKU52QN/A MKU52ZD/A MKU32QN/A MKU12ZD/A MKU32ZD/A MKU22ZD/A\",\"name\":\"iPhone 6s Plus (16GB)\",\"display_name\":\"Apple iPhone 6s Plus (16GB)\",\"category_id\":40,\"first_product_shop_info\":null,\"click_url\":null,\"price_max\":919.0,\"price_min\":715.5,\"reviewscore\":4.0,\"shop_count\":56,\"plain_spec_summary\":\"SmartPhone,  Single, Οθόνη: 5.5\\\", CPU: 1840 MHz, Πυρήνες CPU: 2, RAM: 2 GB,  Μνήμη Αποθήκευσης: 16 GB,    Δίκτυο Σύνδεσης: 4G, Λειτουργικό Σύστημα: iOS, Μπαταρία: 2750 mAh\",\"manufacturer_id\":356,\"future\":false,\"reviews_count\":4,\"virtual\":false,\"images\":{\"main\":\"http://c.scdn.gr/images/sku_main_images/007424/7424465/medium_20150910112438_apple_iphone_6s_plus_16gb.jpeg\",\"alternatives\":[\"http://d.scdn.gr/images/sku_images/014847/14847159/20150910112439_123d1f69.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847180/20150910112731_1aa4b5b1.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847160/20150910112441_c5ec88b4.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847162/20150910112454_126c96d0.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847163/20150910112455_2e04025a.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847181/20150910112739_6c3ccfa6.jpeg\",\"http://a.scdn.gr/images/sku_images/014847/14847182/20150910112742_d01d8b66.jpeg\",\"http://a.scdn.gr/images/sku_images/014847/14847166/20150910112510_6f6e6047.jpeg\",\"http://a.scdn.gr/images/sku_images/014847/14847183/20150910112817_707a3b67.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847168/20150910112523_34275478.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847169/20150910112525_1878cf2f.jpeg\",\"http://a.scdn.gr/images/sku_images/014847/14847170/20150910112534_33ef1712.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847171/20150910112537_04e429fa.jpeg\",\"http://c.scdn.gr/images/sku_images/014847/14847172/20150910112541_7f910ea7.jpeg\",\"http://b.scdn.gr/images/sku_images/014847/14847173/20150910112545_eb5ffb0d.jpeg\"]},\"web_uri\":\"https://skroutz.gr/s/7424465/Apple-iPhone-6s-Plus-16GB.html\"},{\"id\":6260915,\"ean\":\"\",\"pn\":\"SM-G920F 32GB\",\"name\":\"Galaxy S6 (32GB)\",\"display_name\":\"Samsung Galaxy S6 (32GB)\",\"category_id\":40,\"first_product_shop_info\":null,\"click_url\":null,\"price_max\":847.0,\"price_min\":406.69,\"reviewscore\":4.44792,\"shop_count\":66,\"plain_spec_summary\":\"SmartPhone,  Single, Οθόνη: 5.1\\\", CPU: 2100 MHz, Πυρήνες CPU: 4+4, RAM: 3 GB,  Μνήμη Αποθήκευσης: 32.0 GB,    Δίκτυο Σύνδεσης: 4G, Λειτουργικό Σύστημα: Android, Μπαταρία: 2550 mAh\",\"manufacturer_id\":28,\"future\":false,\"reviews_count\":96,\"virtual\":false,\"images\":{\"main\":\"http://a.scdn.gr/images/sku_main_images/006260/6260915/medium_20150302105253_samsung_galaxy_s6_32gb.png\",\"alternatives\":[\"http://b.scdn.gr/images/sku_images/014782/14782538/20150302104558_5384a7b1.jpeg\",\"http://d.scdn.gr/images/sku_images/014782/14782539/20150302104600_4089eef2.jpeg\",\"http://c.scdn.gr/images/sku_images/014782/14782532/20150302104534_948de585.jpeg\",\"http://d.scdn.gr/images/sku_images/014782/14782533/20150302104540_e52cdf1d.jpeg\",\"http://b.scdn.gr/images/sku_images/014782/14782534/20150302104543_0ac33112.jpeg\",\"http://a.scdn.gr/images/sku_images/014782/14782535/20150302104549_fa86ffa6.jpeg\",\"http://a.scdn.gr/images/sku_images/014782/14782536/20150302104552_5f15ae4f.jpeg\",\"http://d.scdn.gr/images/sku_images/014782/14782537/20150302104555_d626413a.jpeg\",\"http://a.scdn.gr/images/sku_images/014782/14782541/20150302104610_27ff4aa2.jpeg\",\"http://d.scdn.gr/images/sku_images/014782/14782542/20150302104631_09e2f16f.png\",\"http://a.scdn.gr/images/sku_images/014782/14782527/20150302104426_947a3d4c.png\"]},\"web_uri\":\"https://skroutz.gr/s/6260915/Samsung-Galaxy-S6-32GB.html\"}],\"meta\":{\"pagination\":{\"total_results\":4,\"total_pages\":1,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455836940",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"3e4508c55a8c4ad7c8c761e0c912b3b8\"",
+        "X-Request-Id": "313442991",
+        "X-Runtime": "0.040859",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "7013",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 23:08:34 GMT",
+        "X-Varnish": "313442991",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb1",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
