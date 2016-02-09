@@ -1,0 +1,40 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.skroutz.gr/oauth2/token?client_id=invalid_id&client_secret=invalid_secret&grant_type=client_credentials&scope=public"
+    },
+    "response": {
+      "body": "",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json",
+        "Vary": "Accept-Encoding",
+        "Status": "400 Bad Request",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Cache-Control": "no-store",
+        "Pragma": "no-cache",
+        "ETag": "W/\"5716477fc1fc8ee13d57912fd225846a\"",
+        "X-Request-Id": "303378841",
+        "X-Runtime": "0.023990",
+        "X-DNS-Prefetch-Control": "off",
+        "X-App": "kavula_ssl",
+        "Content-Length": "146",
+        "Accept-Ranges": "bytes",
+        "Date": "Wed, 17 Feb 2016 23:04:45 GMT",
+        "X-Varnish": "303378841",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb1",
+        "X-Cache": "MISS"
+      },
+      "status_code": 400,
+      "type": "bad request"
+    }
+  }
+]
