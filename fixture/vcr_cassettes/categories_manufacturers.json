@@ -1,0 +1,43 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/categories/40/manufacturers?"
+    },
+    "response": {
+      "body": "{\"manufacturers\":[{\"id\":28,\"name\":\"Samsung\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/28/samsung-logo1.jpg\"},{\"id\":2159,\"name\":\"Huawei\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000002/2159/huawei-logo.jpg\"},{\"id\":30,\"name\":\"LG\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/30/LGlogo.jpg\"},{\"id\":356,\"name\":\"Apple\",\"image_url\":\"http://b.scdn.gr/images/manufacturer_logos/000000/356/20150908140831_21223e72.png\"},{\"id\":38,\"name\":\"Microsoft\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000000/38/20150408094617_51d128fa.jpg\"},{\"id\":2,\"name\":\"Sony\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/2/502f0698a44df30f4fd55fd9e0893369.jpg\"},{\"id\":288,\"name\":\"Lenovo\",\"image_url\":\"http://b.scdn.gr/images/manufacturer_logos/000000/288/20151216161653_8a597060.png\"},{\"id\":16264,\"name\":\"Doogee\",\"image_url\":null},{\"id\":25,\"name\":\"Nokia\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000000/25/cabd6720df784776546f92296aa81e8d.jpg\"},{\"id\":205,\"name\":\"HTC\",\"image_url\":\"http://b.scdn.gr/images/manufacturer_logos/000000/205/htc.jpg\"},{\"id\":417,\"name\":\"Alcatel\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/417/20150624125853_bbc04a78.png\"},{\"id\":27,\"name\":\"Motorola\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/27/0d213d234b82d85040ada0656060d6a6.jpg\"},{\"id\":480,\"name\":\"Meizu\",\"image_url\":null},{\"id\":18075,\"name\":\"BlackView\",\"image_url\":\"http://b.scdn.gr/images/manufacturer_logos/000018/18075/20160215104442_90310164.jpg\"},{\"id\":15053,\"name\":\"Xiaomi\",\"image_url\":null},{\"id\":380,\"name\":\"MLS\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000000/380/20150624105358_75b9fadd.jpg\"},{\"id\":4834,\"name\":\"ZTE\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000004/4834/ZTE_logo.jpg\"},{\"id\":17153,\"name\":\"Leagoo\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000017/17153/20150626155335_355c64f4.jpg\"},{\"id\":3538,\"name\":\"Caterpillar\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000003/3538/CaterpillarLogo.jpg\"},{\"id\":17260,\"name\":\"Cubot\",\"image_url\":null},{\"id\":355,\"name\":\"Asus\",\"image_url\":\"http://b.scdn.gr/images/manufacturer_logos/000000/355/a15d77558257122f64ec52bff999c9a4.jpg\"},{\"id\":16705,\"name\":\"Elephone\",\"image_url\":null},{\"id\":515,\"name\":\"Blackberry\",\"image_url\":\"http://b.scdn.gr/images/manufacturer_logos/000000/515/b1f68958463b424837e0ba9215499325.jpg\"},{\"id\":18663,\"name\":\"Ulefone\",\"image_url\":null},{\"id\":12110,\"name\":\"Zopo\",\"image_url\":null}],\"meta\":{\"pagination\":{\"total_results\":69,\"total_pages\":3,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455834600",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Link": "<https://api.skroutz.gr/categories/40/manufacturers?page=3>; rel=\"last\", <https://api.skroutz.gr/categories/40/manufacturers?page=2>; rel=\"next\"",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"e3882c3ac1ea169d02fb8dca0d98cd2a\"",
+        "X-Request-Id": "1800045707",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "2592",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 22:29:25 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

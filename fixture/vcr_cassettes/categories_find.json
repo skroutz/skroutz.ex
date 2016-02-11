@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/categories/40?"
+    },
+    "response": {
+      "body": "{\"category\":{\"id\":40,\"name\":\"Κινητά Τηλέφωνα\",\"children_count\":0,\"image_url\":\"http://a.scdn.gr/images/categories/large/20150508124644_bd07441b.jpg\",\"parent_id\":86,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/40/kinhta-thlefwna.html\",\"path\":\"76,1269,86,40\",\"show_specifications\":true,\"manufacturer_title\":\"Κατασκευαστές\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455752160",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"870d38e14a57320c3bf5012e5cc52be4\"",
+        "X-Request-Id": "303546614",
+        "X-Runtime": "0.016719",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "372",
+        "Accept-Ranges": "bytes",
+        "Date": "Wed, 17 Feb 2016 23:35:38 GMT",
+        "X-Varnish": "303546614",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb1",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

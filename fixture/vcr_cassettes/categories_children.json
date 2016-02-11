@@ -1,0 +1,42 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/categories/1269/children?"
+    },
+    "response": {
+      "body": "{\"categories\":[{\"id\":86,\"name\":\"Κινητή Τηλεφωνία\",\"children_count\":18,\"image_url\":\"http://d.scdn.gr/images/categories/large/20150620015249_be751d0d.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/86/kinhth-thlefwnia.html\",\"path\":\"76,1269,86\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":22,\"name\":\"Ηλεκτρονικοί Υπολογιστές\",\"children_count\":10,\"image_url\":\"http://b.scdn.gr/images/categories/large/22.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/22/hlektronikoi-ypologistes-pc.html\",\"path\":\"76,1269,22\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":767,\"name\":\"Ήχος\",\"children_count\":17,\"image_url\":\"http://b.scdn.gr/images/categories/large/767.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/767/audio.html\",\"path\":\"76,1269,767\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":309,\"name\":\"Εικόνα\",\"children_count\":6,\"image_url\":\"http://a.scdn.gr/images/categories/large/20150708201510_7b57f1ae.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/309/video.html\",\"path\":\"76,1269,309\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":1864,\"name\":\"Gaming\",\"children_count\":8,\"image_url\":\"http://a.scdn.gr/images/categories/large/20150303113045_a4078de8.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/1864/Gaming.html\",\"path\":\"76,1269,1864\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":1612,\"name\":\"Tablets \\u0026 Αξεσουάρ\",\"children_count\":9,\"image_url\":\"http://b.scdn.gr/images/categories/large/20150619191157_19cb1fb4.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/1612/tablets-kai-accessories.html\",\"path\":\"76,1269,1612\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":5,\"name\":\"Φωτογραφία \\u0026 Video\",\"children_count\":3,\"image_url\":\"http://a.scdn.gr/images/categories/large/20150511220245_0c27a42c.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/5/photografia-video.html\",\"path\":\"76,1269,5\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":144,\"name\":\"Ηλεκτρονικά\",\"children_count\":5,\"image_url\":\"http://a.scdn.gr/images/categories/large/20150603114150_83107e9a.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/144/hlektronika.html\",\"path\":\"76,1269,144\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":1912,\"name\":\"Wearables\",\"children_count\":4,\"image_url\":\"http://c.scdn.gr/images/categories/large/20150508171740_07cd8f42.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"tiles\",\"web_uri\":\"https://skroutz.gr/c/1912/Wearables.html\",\"path\":\"76,1269,1912\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"},{\"id\":2,\"name\":\"Τηλεφωνία\",\"children_count\":2,\"image_url\":\"http://a.scdn.gr/images/categories/large/20151204131758_3e2f9f76.jpg\",\"parent_id\":1269,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/2/tilefwnia.html\",\"path\":\"76,1269,2\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"}],\"meta\":{\"pagination\":{\"total_results\":10,\"total_pages\":1,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455833700",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"4dafbe4bebf6f5c449f69798b32d49c7\"",
+        "X-Request-Id": "313102717",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "3582",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 22:14:10 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

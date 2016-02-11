@@ -1,0 +1,42 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/categories/1269/parent?"
+    },
+    "response": {
+      "body": "{\"category\":{\"id\":76,\"name\":\"Skroutz\",\"children_count\":6,\"image_url\":\"http://c.scdn.gr/images/categories/large/76.jpg\",\"parent_id\":0,\"fashion\":false,\"layout_mode\":\"list\",\"web_uri\":\"https://skroutz.gr/c/76/skroutz.html\",\"path\":\"76\",\"show_specifications\":false,\"manufacturer_title\":\"Κατασκευαστές\"}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455834240",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"c30d6501d191de18330168fb908dcd51\"",
+        "X-Request-Id": "1799997263",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "310",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 22:23:06 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
