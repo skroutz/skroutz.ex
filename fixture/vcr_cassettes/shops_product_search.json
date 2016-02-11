@@ -1,0 +1,42 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/shops/452/products/search?shop_uid=059157"
+    },
+    "response": {
+      "body": "{\"products\":[{\"id\":2542071,\"name\":\"Sony DVD+R Spindle 16x 25 Tεμάχια\",\"sku_id\":483837,\"shop_id\":452,\"category_id\":472,\"availability\":\"Άμεση παραλαβή / Παράδοση 1 έως 3 ημέρες\",\"click_url\":\"https://www.skroutz.gr/products/show/2542071?client_id=RO6HMDnulVMcaQwxts3xw%3D%3D\\u0026from=api\",\"shop_uid\":\"059157\",\"expenses\":null,\"web_uri\":\"https://skroutz.gr/products/show/2542071\",\"price\":6.99}],\"meta\":{\"pagination\":{\"total_results\":1,\"total_pages\":1,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455998220",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "ETag": "W/\"dcefaf04a747192cb682ceee8b79fb67\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "331419709",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "503",
+        "Accept-Ranges": "bytes",
+        "Date": "Sat, 20 Feb 2016 19:56:21 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

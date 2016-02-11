@@ -1,0 +1,42 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/shops/search?q=kotso"
+    },
+    "response": {
+      "body": "{\"shops\":[],\"meta\":{\"pagination\":{\"total_results\":0,\"total_pages\":0,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455997080",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"2399c14d097b7a3db5c06300ec1a43dd\"",
+        "X-Request-Id": "1820789728",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "88",
+        "Accept-Ranges": "bytes",
+        "Date": "Sat, 20 Feb 2016 19:37:11 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

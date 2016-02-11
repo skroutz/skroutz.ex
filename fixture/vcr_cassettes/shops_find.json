@@ -1,0 +1,42 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/shops/452?"
+    },
+    "response": {
+      "body": "{\"shop\":{\"id\":452,\"name\":\"Kotsovolos\",\"link\":\"http://www.kotsovolos.gr\",\"phone\":\"2102899999\",\"image_url\":\"http://b.scdn.gr/images/shops/logos/0004/mid_d5867ac8-867b-4395-99bc-db04e459fe4d.jpg\",\"thumbshot_url\":\"http://c.scdn.gr/images/shops/screens/20150731105054_75756119.png\",\"reviews_count\":365,\"latest_reviews_count\":111,\"review_score\":2.72,\"payment_methods\":{\"credit_card\":true,\"paypal\":false,\"bank\":true,\"spot_cash\":true,\"installments\":\"Εώς 12 άτοκες δόσεις μέσω πιστωτικής κάρτας για αγορές άνω των 60 Ευρω.\\r\\nΕώς 48 δόσεις μέσω δανειοδότησης Κωτσόβολου.\"},\"shipping\":{\"free\":true,\"free_from\":85,\"free_from_info\":\"\",\"min_price\":\"3.99\"},\"web_uri\":\"https://skroutz.gr/m/452/Kotsovolos\"}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455997200",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"1b66b9067440dbd9551cee8b40adce5e\"",
+        "X-Request-Id": "331253396",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "782",
+        "Accept-Ranges": "bytes",
+        "Date": "Sat, 20 Feb 2016 19:39:09 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

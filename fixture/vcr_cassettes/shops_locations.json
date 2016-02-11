@@ -1,0 +1,43 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/shops/452/locations?"
+    },
+    "response": {
+      "body": "{\"locations\":[{\"id\":2500,\"headquarter\":true,\"phones\":[\"2102899999\"],\"pickup_point\":false,\"store\":false,\"full_address\":\"14ο ΧΛΜ ΕΟ ΑΘΗΝΩΝ ΛΑΜΙΑΣ 14, Τ.Κ. 14452, ΜΕΤΑΜΟΡΦΩΣΗ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.062297\",\"lng\":\"23.75991\",\"info\":\"\"},{\"id\":1696,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΛΕΩΦΟΡΟΣ ΗΡΑΚΛΕΙΟΥ 271, Τ.Κ. 14231, ΝΕΑ ΙΩΝΙΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.044771\",\"lng\":\"23.756156\",\"info\":\"\"},{\"id\":1699,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΜΕΣΟΓΕΙΩΝ 505, Τ.Κ. 15343, ΑΓΙΑ ΠΑΡΑΣΚΕΥΗ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.01341\",\"lng\":\"23.833118\",\"info\":\"\"},{\"id\":1701,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΕΛΕΥΘΕΡΙΟΥ ΒΕΝΙΖΕΛΟΥ 256, Τ.Κ. 17675, ΚΑΛΛΙΘΕΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"37.949534\",\"lng\":\"23.690921\",\"info\":\"\"},{\"id\":1702,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΤΑΞΙΑΡΧΩΝ 44, Τ.Κ. 18120, ΚΟΡΥΔΑΛΛΟΣ, Αττικής\",\"format\":\"structured\",\"lat\":\"37.978207\",\"lng\":\"23.651699\",\"info\":\"\"},{\"id\":1704,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΧΡΕΜΩΝΙΔΟΥ 52, Τ.Κ. 11633, ΑΘΗΝΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"37.964715\",\"lng\":\"23.750942\",\"info\":\"\"},{\"id\":1706,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΧΑΡΙΛΑΟΥ ΤΡΙΚΟΥΠΗ 135, Τ.Κ. 14671, ΝΕΑ ΕΡΥΘΡΑΙΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.088592\",\"lng\":\"23.815282\",\"info\":\"\"},{\"id\":1708,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΛΕΩΦΟΡΟΣ ΔΗΜΟΚΡΑΤΙΑΣ 266, Τ.Κ. 13562, ΑΓΙΟΙ ΑΝΑΡΓΥΡΟΙ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.043152\",\"lng\":\"23.727277\",\"info\":\"\"},{\"id\":1710,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΛΑΖΑΡΑΚΗ 11, Τ.Κ. 16675, ΓΛΥΦΑΔΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"37.864466\",\"lng\":\"23.746738\",\"info\":\"\"},{\"id\":1711,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΙΔΟΜΕΝΕΩΣ 116, Τ.Κ. 13123, ΙΛΙΟΝ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.029999\",\"lng\":\"23.70032\",\"info\":\"\"},{\"id\":1713,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΦΕΙΔΙΠΠΙΔΟΥ 4, Τ.Κ. 11526, ΑΘΗΝΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"37.986293\",\"lng\":\"23.762276\",\"info\":\"ΑΜΠΕΛΟΚΗΠΟΙ\\r\\n\"},{\"id\":1714,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΔΥΡΡΑΧΙΟΥ 56, Τ.Κ. 10443, ΑΘΗΝΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.005597\",\"lng\":\"23.717502\",\"info\":\"ΣΕΠΟΛΙΑ\"},{\"id\":1720,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΛΕΩΦ. ΜΑΡΑΘΩΝΟΣ 177, Τ.Κ. 19005, ΝΕΑ ΜΑΚΡΗ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.089981\",\"lng\":\"23.975056\",\"info\":\"\"},{\"id\":1721,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΛΕΩΦΟΡΟΣ ΚΝΩΣΟΥ 123, Τ.Κ. 71409, ΗΡΑΚΛΕΙΟ ΚΡΗΤΗΣ, Ηρακλείου\",\"format\":\"structured\",\"lat\":\"35.31997\",\"lng\":\"25.144127\",\"info\":\"\"},{\"id\":1722,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΛΙΟΣΙΩΝ 71, Τ.Κ. 13671, ΑΧΑΡΝΕΣ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.07912\",\"lng\":\"23.729472\",\"info\":\"MEGA ΜΕΝΙΔΙ\\r\\n\"},{\"id\":1725,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΠΑΠΑΠΟΣΤΟΛΟΥ 4, Τ.Κ. 35100, ΛΑΜΙΑ, Φθιώτιδας\",\"format\":\"structured\",\"lat\":\"38.900369\",\"lng\":\"22.441412\",\"info\":\"\"},{\"id\":1726,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΑΠ ΠΑΥΛΟΥ 42, Τ.Κ. 20100, ΚΟΡΙΝΘΟΣ, Κορινθίας\",\"format\":\"structured\",\"lat\":\"37.940558\",\"lng\":\"22.929615\",\"info\":\"\"},{\"id\":1727,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΣΚΑΛΙΔΗ 24, Τ.Κ. 73100, ΧΑΝΙΑ, Χανίων\",\"format\":\"structured\",\"lat\":\"35.512067\",\"lng\":\"24.017633\",\"info\":\"\"},{\"id\":1729,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΤΣΙΜΙΣΚΗ 43, Τ.Κ. 54621, Θεσσαλονίκη, Θεσσαλονίκης\",\"format\":\"structured\",\"lat\":\"40.628989\",\"lng\":\"22.948889\",\"info\":\"\"},{\"id\":1730,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΤΣΑΛΟΠΟΥΛΟΥ 9, Τ.Κ. 62100, ΣΕΡΡΕΣ, Σερρών\",\"format\":\"structured\",\"lat\":\"41.085747\",\"lng\":\"23.546096\",\"info\":\"\"},{\"id\":1955,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΑΔΑΜΑΝΤΙΟΥ ΚΟΡΑΗ 7, Τ.Κ. 45500, ΙΩΑΝΝΙΝΑ, Ιωαννίνων\",\"format\":\"structured\",\"lat\":\"39.55425\",\"lng\":\"20.919672\",\"info\":\"\"},{\"id\":2012,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΠΕΛΑΣΓΙΑΣ 16, Τ.Κ. 12136, ΠΕΡΙΣΤΕΡΙ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.01188\",\"lng\":\"23.688087\",\"info\":\"\"},{\"id\":2025,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΠΛΑΤΩΝΟΣ 5, Τ.Κ. 18535, ΠΕΙΡΑΙΑΣ, Αττικής\",\"format\":\"structured\",\"lat\":\"37.941438\",\"lng\":\"23.645116\",\"info\":\"\"},{\"id\":2027,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΠΑΤΗΣΙΩΝ 101, Τ.Κ. 10434, ΑΘΗΝΑ, Αττικής\",\"format\":\"structured\",\"lat\":\"37.995609\",\"lng\":\"23.732143\",\"info\":\"ΠΑΤΗΣΙΩΝ 101 \\u0026 ΚΟΔΡΙΓΚΤΩΝΟΣ\"},{\"id\":2037,\"headquarter\":false,\"phones\":[\"2102899999\"],\"pickup_point\":true,\"store\":true,\"full_address\":\"ΒΕΙΚΟΥ ΛΕΩΦΟΡΟΣ 43, Τ.Κ. 11147, ΓΑΛΑΤΣΙ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.016802\",\"lng\":\"23.754705\",\"info\":\"\\u0026 ΚΟΡΙΝΗΣ\"}],\"meta\":{\"pagination\":{\"total_results\":67,\"total_pages\":3,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "98",
+        "X-RateLimit-Reset": "1455997080",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Link": "<https://api.skroutz.gr/shops/452/locations?page=3>; rel=\"last\", <https://api.skroutz.gr/shops/452/locations?page=2>; rel=\"next\"",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"d3b0a6940dea2d13220d5336af07bf2f\"",
+        "X-Request-Id": "1820789764",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "6500",
+        "Accept-Ranges": "bytes",
+        "Date": "Sat, 20 Feb 2016 19:37:12 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

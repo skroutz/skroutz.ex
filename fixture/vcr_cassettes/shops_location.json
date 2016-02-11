@@ -1,0 +1,42 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/shops/452/locations/2500?"
+    },
+    "response": {
+      "body": "{\"location\":{\"id\":2500,\"headquarter\":true,\"phones\":[\"2102899999\"],\"pickup_point\":false,\"store\":false,\"full_address\":\"14ο ΧΛΜ ΕΟ ΑΘΗΝΩΝ ΛΑΜΙΑΣ 14, Τ.Κ. 14452, ΜΕΤΑΜΟΡΦΩΣΗ, Αττικής\",\"format\":\"structured\",\"lat\":\"38.062297\",\"lng\":\"23.75991\",\"info\":\"\"}}",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455997500",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"f3fd3b5d192fe991a5fb067c9f55d65a\"",
+        "X-Request-Id": "1820872619",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "Content-Length": "286",
+        "Accept-Ranges": "bytes",
+        "Date": "Sat, 20 Feb 2016 19:44:40 GMT",
+        "Age": "0",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
