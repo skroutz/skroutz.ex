@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/manufacturers/28?"
+    },
+    "response": {
+      "body": "{\"manufacturer\":{\"id\":28,\"name\":\"Samsung\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/28/samsung-logo1.jpg\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "98",
+        "X-RateLimit-Reset": "1455837600",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "ETag": "W/\"5b26971b2c8cb0dd939a1f000554202d\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "313497673",
+        "X-Runtime": "0.016241",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "128",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 23:19:41 GMT",
+        "X-Varnish": "313497673",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb1",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/manufacturers?"
+    },
+    "response": {
+      "body": "{\"manufacturers\":[{\"id\":1,\"name\":\"EA - Electronic Arts\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/1/e2e019eea82bfe6b82b47ab77f6b4497.png\"},{\"id\":2,\"name\":\"Sony\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/2/502f0698a44df30f4fd55fd9e0893369.jpg\"},{\"id\":3,\"name\":\"Ubisoft\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/3/2d7761fdd58f195d31263be60670bcb7.jpg\"},{\"id\":5,\"name\":\"THQ\",\"image_url\":null},{\"id\":7,\"name\":\"Konami\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000000/7/587dc9112839b7620a15816dff472d57.jpg\"},{\"id\":8,\"name\":\"Sega\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/8/ac593f1b9a730481714cdb8a36e34e4b.png\"},{\"id\":10,\"name\":\"Majesco Games\",\"image_url\":null},{\"id\":11,\"name\":\"Eidos\",\"image_url\":null},{\"id\":12,\"name\":\"Activision\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000000/12/e02d96d1dc741e04d0cfaa33ff456e1d.jpg\"},{\"id\":14,\"name\":\"Disney\",\"image_url\":null},{\"id\":15,\"name\":\"Xplosiv\",\"image_url\":null},{\"id\":16,\"name\":\"Midway\",\"image_url\":null},{\"id\":17,\"name\":\"Sierra Entertainment\",\"image_url\":null},{\"id\":19,\"name\":\"Nintendo\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000000/19/217316bf69e8861bde8416caad4fec01.jpg\"},{\"id\":20,\"name\":\"Capcom\",\"image_url\":null},{\"id\":21,\"name\":\"AMD\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/21/amd-logo.jpg\"},{\"id\":22,\"name\":\"Intel\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/22/bfce0d83304cb37d08d194f91b7ab346.jpg\"},{\"id\":23,\"name\":\"Acer\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/23/fcdbcfc837183edb26c0a94dcc985120.jpg\"},{\"id\":24,\"name\":\"BenQ\",\"image_url\":\"http://b.scdn.gr/images/manufacturer_logos/000000/24/c65f8b4fd4bff33607cc078975753669.jpg\"},{\"id\":25,\"name\":\"Nokia\",\"image_url\":\"http://d.scdn.gr/images/manufacturer_logos/000000/25/cabd6720df784776546f92296aa81e8d.jpg\"},{\"id\":26,\"name\":\"Sony Ericsson\",\"image_url\":null},{\"id\":27,\"name\":\"Motorola\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/27/0d213d234b82d85040ada0656060d6a6.jpg\"},{\"id\":28,\"name\":\"Samsung\",\"image_url\":\"http://c.scdn.gr/images/manufacturer_logos/000000/28/samsung-logo1.jpg\"},{\"id\":29,\"name\":\"Sagem\",\"image_url\":null},{\"id\":30,\"name\":\"LG\",\"image_url\":\"http://a.scdn.gr/images/manufacturer_logos/000000/30/LGlogo.jpg\"}],\"meta\":{\"pagination\":{\"total_results\":23827,\"total_pages\":954,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455837540",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Link": "<https://api.skroutz.gr/manufacturers?page=954>; rel=\"last\", <https://api.skroutz.gr/manufacturers?page=2>; rel=\"next\"",
+        "ETag": "W/\"515b4c10d4a0789bb9d0818f0c51ccb7\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "1800364746",
+        "X-Runtime": "0.035996",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "2432",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 23:18:00 GMT",
+        "X-Varnish": "1800364746",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
