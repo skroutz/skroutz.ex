@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/products/21076704?"
+    },
+    "response": {
+      "body": "{\"product\":{\"id\":21076704,\"name\":\"Apple iPhone 6s (16GB) Gold EU\",\"sku_id\":7423345,\"shop_id\":2281,\"category_id\":40,\"availability\":\"Άμεση παραλαβή / Παράδοση 1 έως 3 ημέρες\",\"click_url\":\"https://www.skroutz.gr/products/show/21076704?client_id=RO6HMDnulVMcaQwxts3xw%3D%3D\\u0026from=api\",\"shop_uid\":\"CT10918\",\"expenses\":null,\"web_uri\":\"https://skroutz.gr/products/show/21076704\",\"price\":603.89}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1455839040",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "max-age=300, private",
+        "ETag": "W/\"da3c0725139b8387be5483faf39f236a\"",
+        "X-Request-Id": "1800494531",
+        "X-Runtime": "0.018395",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "422",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 18 Feb 2016 23:43:17 GMT",
+        "X-Varnish": "1800494531",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
