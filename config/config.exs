@@ -23,11 +23,15 @@ config :skroutz,
        api_base_url: "https://api.skroutz.gr"]
   ]
 
-#
-# And access this configuration in your application as:
-#
-#     Application.get_env(:skroutzex, :key)
-#
+if Mix.env == :test do
+  config :exvcr, [
+    filter_sensitive_data: [
+      [pattern: "Bearer\\s.+", placeholder: "Bearer ACCESS_TOKEN"]
+    ]
+  ]
+end
+
+
 # Or configure a 3rd-party app:
 #
 #     config :logger, level: :info
