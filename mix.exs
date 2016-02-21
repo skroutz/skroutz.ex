@@ -21,6 +21,10 @@ defmodule Skroutz.Mixfile do
     [{:httpoison, "~> 0.8"},
      {:poison, "~> 2.0"},
 
+     # Development dependencies
+     {:earmark, "~> 0.1", only: :dev},
+     {:ex_doc, "~> 0.11", only: :dev},
+
      # Test dependencies
      {:exvcr, "~> 0.7", only: :test}]
   end
