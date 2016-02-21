@@ -8,19 +8,19 @@ Hex package coming up soon.
 
 When [available in Hex](https://hex.pm/docs/publish), to install the package:
 
-  1. Add skroutzex to your list of dependencies in `mix.exs`:
+  1. Add skroutz to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:skroutzex, "~> version_here"}]
+  [{:skroutz, "~> version_here"}]
 end
 ```
 
-  2. Ensure skroutzex is started before your application:
+  2. Ensure skroutz is started before your application:
 
 ```elixir
 def application do
-  [applications: [:skroutzex]]
+  [applications: [:skroutz]]
 end
 ```
 
@@ -38,25 +38,25 @@ end
 
 ```elixir
 # With OAuth2.0 credentials
-{:ok, skroutz} = Skroutzex.new(%{client_id: "id", client_secret: "secret"})
+{:ok, skroutz} = Skroutz.new(%{client_id: "id", client_secret: "secret"})
 
 # With OAuth2.0 credentials, for the Alve flavor
-{:ok, alve} = Skroutzex.new(%{client_id: "id",
+{:ok, alve} = Skroutz.new(%{client_id: "id",
                               client_secret: "secret",
                               flavor: :alve})
 ```
 
 ```elixir
 # With existing Oauth2.0 access token
-{:ok, skroutz} = Skroutzex.new("a valid access token")
+{:ok, skroutz} = Skroutz.new("a valid access token")
 ```
 
 ### Search
 
 ```elixir
-{:ok, skroutz} = Skroutzex.new("a valid token")
+{:ok, skroutz} = Skroutz.new("a valid token")
 
-skroutz |> Skroutzex.Search.search("nexus 6")
+skroutz |> Skroutz.Search.search("nexus 6")
 ```
 
 ## Examples
@@ -66,7 +66,7 @@ skroutz |> Skroutzex.Search.search("nexus 6")
 > Then you can use `h` inside `iex` to print documentation.
 
 ```elixir
-h Skroutzex.Category.find
+h Skroutz.Category.find
 
 # Prints documentation for the function
 ```
@@ -74,10 +74,10 @@ h Skroutzex.Category.find
 ### Categories
 
 ```elixir
-{:ok, skroutz} = Skroutzex.new("a valid token")
+{:ok, skroutz} = Skroutz.new("a valid token")
 
 # Get a specific category
-skroutz |> Skroutzex.Category.find(40)
+skroutz |> Skroutz.Category.find(40)
 ```
 
 ## Compatibility
@@ -108,4 +108,4 @@ To get yours send an email at [api@skroutz.gr](mailto: api@skroutz.gr).
 # LICENSE
 
 Copyright (c) 2016 Dimitris Zorbas, MIT Licence.
-See [LICENSE.txt](https://github.com/skroutz/skroutzex/blob/master/LICENSE.txt) for further details.
+See [LICENSE.txt](https://github.com/skroutz/skroutz.ex/blob/master/LICENSE.txt) for further details.
