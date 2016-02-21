@@ -1,14 +1,13 @@
 # skroutz.ex
 
 [![Build Status](https://travis-ci.org/skroutz/skroutz.ex.svg?branch=master)](https://travis-ci.org/skroutz/skroutz.ex)
+[![Package Version](https://img.shields.io/hexpm/v/skroutz.svg)](https://hex.pm/packages/skroutz)
 
 A minimalistic Skroutz API client, for Elixir
 
 ## Installation
 
-Hex package coming up soon.
-
-When [available in Hex](https://hex.pm/docs/publish), to install the package:
+To install the package:
 
   1. Add skroutz to your list of dependencies in `mix.exs`:
 
@@ -25,6 +24,11 @@ def application do
   [applications: [:skroutz]]
 end
 ```
+
+## Documentation
+
+* [Hexdocs](http://hexdocs.pm/skroutz/api-reference.html)
+* [API Documentation](https://developer.skroutz.gr/api/v3)
 
 ## Resources
 
