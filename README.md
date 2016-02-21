@@ -48,8 +48,8 @@ end
 
 # With OAuth2.0 credentials, for the Alve flavor
 {:ok, alve} = Skroutz.new(%{client_id: "id",
-                              client_secret: "secret",
-                              flavor: :alve})
+                            client_secret: "secret",
+                            flavor: :alve})
 ```
 
 ```elixir
@@ -89,6 +89,7 @@ skroutz |> Skroutz.Category.find(40)
 ## Compatibility
 
 The project has been tested to work with elixir version 1.2.
+
 It may inadvertently work (or seem to work) with other versions, however compatibility and support are not guaranteed.
 
 ## Development
@@ -109,6 +110,7 @@ iex -S mix
 
 In order for the client to make requests against our API,
 a valid set of OAuth2.0 credentials provided by us has to be used.
+
 To get yours send an email at [api@skroutz.gr](mailto: api@skroutz.gr).
 
 # LICENSE
