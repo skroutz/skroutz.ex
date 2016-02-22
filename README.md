@@ -11,19 +11,19 @@ To install the package:
 
   1. Add skroutz to your list of dependencies in `mix.exs`:
 
-```elixir
-def deps do
-  [{:skroutz, "~> version_here"}]
-end
-```
+  ```elixir
+  def deps do
+    [{:skroutz, "~> version_here"}]
+  end
+  ```
 
   2. Ensure skroutz is started before your application:
 
-```elixir
-def application do
-  [applications: [:skroutz]]
-end
-```
+  ```elixir
+  def application do
+    [applications: [:skroutz]]
+  end
+  ```
 
 ## Documentation
 
