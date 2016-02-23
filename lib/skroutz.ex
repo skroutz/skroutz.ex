@@ -1,4 +1,6 @@
 defmodule Skroutz do
+  use Skroutz.Http
+
   @type t :: pid
 
   alias Skroutz.Config
@@ -57,46 +59,9 @@ defmodule Skroutz do
   end
 
   @doc """
-  Performs an HTTP GET request
-  """
-  def get(client, path, params \\ %{}), do: request(client, :get, path, params)
-
-  @doc """
-  Performs an HTTP POST request
-  """
-  def post(client, path, params \\ %{}), do: request(client, :post, path, params)
-
-  @doc """
-  Performs an HTTP PUT request
-  """
-  def put(client, path, params \\ %{}), do: request(client, :put, path, params)
-
-  @doc """
-  Performs an HTTP PATCH request
-  """
-  def patch(client, path, params \\ %{}), do: request(client, :patch, path, params)
-
-  @doc """
   Returns the flavor of the current process
   """
   def flavor(pid), do: env(:flavors)[pid |> config(:flavor)]
-
-  defp request(client, verb, path, params \\ %{}) do
-    apply(HTTPoison, verb, [build_path(client, path),
-                            client |> token |> build_headers,
-                            [params: params]])
-    |> handle_response
-  end
-
-  defp handle_response(response) do
-    case response do
-      {:ok, %HTTPoison.Response{status_code: code, body: body}} when code in (200..399)
-        -> {:ok, Poison.decode!(body)}
-      {:ok, %HTTPoison.Response{status_code: code, body: body}} when code in (400..599)
-        -> {:error, [code: code, body: body]}
-      {:error, %HTTPoison.Error{ id: _, reason: reason }} -> {:error, reason}
-    end
-  end
 
   defp build_path(pid, path), do: (pid |> flavor)[:api_base_url] <> path
 
