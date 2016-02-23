@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/notifications/179498022?"
+    },
+    "response": {
+      "body": "{\"notification\":{\"id\":179498022,\"etype\":\"price_drop\",\"eventable_id\":7333160,\"eventable_type\":\"Sku\",\"eventable_name\":\"Samsung Galaxy J5 (8GB)\",\"eventable_url\":\"http://www.skroutz.gr/s/7333160/Samsung-Galaxy-J5-8GB.html?from=account_notifications\",\"event_text\":null,\"snapshot\":{\"price_min\":142.0,\"latest_price\":143.5,\"change_rate\":0.01},\"is_viewed\":false,\"aggregated\":false,\"created_at\":\"2016-02-23T22:07:11+02:00\",\"updated_at\":\"2016-02-23T22:07:11+02:00\",\"sku\":{\"id\":7333160,\"category_id\":40,\"display_name\":\"Samsung Galaxy J5 (8GB)\",\"images\":{\"main\":\"http://a.scdn.gr/images/sku_main_images/007333/7333160/medium_20150824131331_samsung_galaxy_j5_single_4g_8gb.jpeg\",\"alternatives\":[\"http://b.scdn.gr/images/sku_images/014839/14839587/20150824131331_0cf704cd.jpeg\",\"http://d.scdn.gr/images/sku_images/014839/14839588/20150824131331_4cfbc26b.jpeg\",\"http://c.scdn.gr/images/sku_images/014839/14839589/20150824131332_dbf041d8.jpeg\",\"http://a.scdn.gr/images/sku_images/014839/14839590/20150824131333_982c43af.jpeg\",\"http://c.scdn.gr/images/sku_images/014839/14839591/20150824131334_fffd7a0a.jpeg\",\"http://d.scdn.gr/images/sku_images/014839/14839592/20150824131334_7756e284.jpeg\",\"http://b.scdn.gr/images/sku_images/014839/14839593/20150824131336_17367e66.jpeg\",\"http://d.scdn.gr/images/sku_images/014839/14839594/20150824131337_f8ff4456.jpeg\",\"http://c.scdn.gr/images/sku_images/014839/14839595/20150824131338_9d883027.jpeg\",\"http://d.scdn.gr/images/sku_images/014839/14839596/20150824131338_e4774315.jpeg\",\"http://a.scdn.gr/images/sku_images/014839/14839597/20150824131339_7451b751.jpeg\",\"http://c.scdn.gr/images/sku_images/014839/14839598/20150824131339_b36ac7f2.jpeg\",\"http://d.scdn.gr/images/sku_images/014839/14839599/20150824131340_3fcb5236.jpeg\",\"http://b.scdn.gr/images/sku_images/014839/14839600/20150824131341_5d93b7a8.jpeg\"]},\"click_url\":null,\"virtual\":false,\"future\":false,\"first_product_shop_info\":null},\"category_name\":\"Κινητά Τηλέφωνα\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1456266600",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "ETag": "W/\"4bd4c326ad3564517985b78015aaa7d2\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "366039074",
+        "X-Runtime": "0.027211",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "1960",
+        "Accept-Ranges": "bytes",
+        "Date": "Tue, 23 Feb 2016 22:29:04 GMT",
+        "X-Varnish": "366039074",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb1",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
