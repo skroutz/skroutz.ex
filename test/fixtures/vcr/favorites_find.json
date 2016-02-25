@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/favorites/254728?"
+    },
+    "response": {
+      "body": "{\"favorite\":{\"id\":254728,\"have_it\":true,\"user_id\":132950,\"user_notes\":\"test\",\"sku_id\":345333,\"created_at\":\"2013-04-12T00:57:44+03:00\",\"updated_at\":\"2014-08-19T17:35:47+03:00\",\"get_absolute_threshold\":null}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "97",
+        "X-RateLimit-Reset": "1456439340",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "ETag": "W/\"454e189edc7dfef12378bf8b54424a22\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "1887124644",
+        "X-Runtime": "0.022211",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "206",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 25 Feb 2016 22:28:52 GMT",
+        "X-Varnish": "1887124644",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
