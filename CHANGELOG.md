@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [0.1.0] - 2016-02-26
+
 ### Added
 
 * Skroutz.Http.serialize_params to format a list|map as query params
