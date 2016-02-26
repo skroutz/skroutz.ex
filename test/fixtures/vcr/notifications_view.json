@@ -1,0 +1,45 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/notifications/view?ids%5B%5D=1&ids%5B%5D=2"
+    },
+    "response": {
+      "body": "",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/octet-stream",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1456270020",
+        "Status": "204 No Content",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "1861543992",
+        "X-Runtime": "0.014861",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Accept-Ranges": "bytes",
+        "Date": "Tue, 23 Feb 2016 23:26:40 GMT",
+        "X-Varnish": "1861543992",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 204,
+      "type": "ok"
+    }
+  }
+]

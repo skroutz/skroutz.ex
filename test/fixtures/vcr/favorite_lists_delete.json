@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "delete",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/favorite_lists/859883?"
+    },
+    "response": {
+      "body": "{\"favorite_list\":{\"id\":859883,\"name\":\"γαρδούμπες\",\"category_id\":null}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "99",
+        "X-RateLimit-Reset": "1456507380",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "ETag": "W/\"67f0623f579af15702439b536898646c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "1895877498",
+        "X-Runtime": "0.020623",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "80",
+        "Accept-Ranges": "bytes",
+        "Date": "Fri, 26 Feb 2016 17:22:04 GMT",
+        "X-Varnish": "1895877498",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/favorite_lists/custom?"
+    },
+    "response": {
+      "body": "{\"favorite_lists\":[{\"id\":168373,\"name\":\"awesome\",\"category_id\":null},{\"id\":191974,\"name\":\"weird\",\"category_id\":null},{\"id\":516500,\"name\":\"wisho\",\"category_id\":null},{\"id\":699267,\"name\":\"κινητάκια\",\"category_id\":null},{\"id\":859883,\"name\":\"γαρδούμπες\",\"category_id\":null},{\"id\":861892,\"name\":\"a-test-list\",\"category_id\":null}],\"meta\":{\"pagination\":{\"total_results\":6,\"total_pages\":1,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "94",
+        "X-RateLimit-Reset": "1456507320",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "ETag": "W/\"de3bcce80283eec40ae23a60039ad6cd\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "1895873884",
+        "X-Runtime": "0.021435",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "420",
+        "Accept-Ranges": "bytes",
+        "Date": "Fri, 26 Feb 2016 17:21:46 GMT",
+        "X-Varnish": "1895873884",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/favorites?"
+    },
+    "response": {
+      "body": "{\"favorites\":[{\"id\":254728,\"have_it\":true,\"user_id\":132950,\"user_notes\":\"test\",\"sku_id\":345333,\"created_at\":\"2013-04-12T00:57:44+03:00\",\"updated_at\":\"2014-08-19T17:35:47+03:00\",\"get_absolute_threshold\":null},{\"id\":333820,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":1741555,\"created_at\":\"2013-08-19T10:50:42+03:00\",\"updated_at\":\"2015-05-07T08:29:26+03:00\",\"get_absolute_threshold\":null},{\"id\":340676,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":299755,\"created_at\":\"2013-08-29T13:02:24+03:00\",\"updated_at\":\"2013-08-29T13:02:59+03:00\",\"get_absolute_threshold\":null},{\"id\":340715,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":423163,\"created_at\":\"2013-08-29T14:10:18+03:00\",\"updated_at\":\"2013-08-29T14:10:20+03:00\",\"get_absolute_threshold\":null},{\"id\":340716,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":341338,\"created_at\":\"2013-08-29T14:10:42+03:00\",\"updated_at\":\"2013-08-29T14:10:43+03:00\",\"get_absolute_threshold\":null},{\"id\":355380,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":325404,\"created_at\":\"2013-09-14T16:26:54+03:00\",\"updated_at\":\"2013-09-14T16:26:54+03:00\",\"get_absolute_threshold\":null},{\"id\":355671,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":446748,\"created_at\":\"2013-09-14T22:30:26+03:00\",\"updated_at\":\"2015-11-18T07:56:18+02:00\",\"get_absolute_threshold\":null},{\"id\":419491,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":3000146,\"created_at\":\"2013-11-20T23:12:07+02:00\",\"updated_at\":\"2013-11-20T23:12:08+02:00\",\"get_absolute_threshold\":null},{\"id\":419518,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":274693,\"created_at\":\"2013-11-20T23:30:58+02:00\",\"updated_at\":\"2013-11-20T23:30:59+02:00\",\"get_absolute_threshold\":null},{\"id\":450507,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":312259,\"created_at\":\"2013-12-18T20:29:27+02:00\",\"updated_at\":\"2013-12-18T20:29:29+02:00\",\"get_absolute_threshold\":null},{\"id\":475566,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":2287737,\"created_at\":\"2013-12-29T21:45:44+02:00\",\"updated_at\":\"2013-12-30T20:21:10+02:00\",\"get_absolute_threshold\":null},{\"id\":495190,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":334630,\"created_at\":\"2014-01-12T22:23:13+02:00\",\"updated_at\":\"2014-10-31T17:09:42+02:00\",\"get_absolute_threshold\":null},{\"id\":507137,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":256466,\"created_at\":\"2014-01-22T20:24:37+02:00\",\"updated_at\":\"2014-03-31T13:45:32+03:00\",\"get_absolute_threshold\":null},{\"id\":510161,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":402716,\"created_at\":\"2014-01-25T21:37:47+02:00\",\"updated_at\":\"2016-01-05T11:46:39+02:00\",\"get_absolute_threshold\":null},{\"id\":520707,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":259499,\"created_at\":\"2014-02-03T14:38:41+02:00\",\"updated_at\":\"2016-02-18T01:45:02+02:00\",\"get_absolute_threshold\":null},{\"id\":543513,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":415736,\"created_at\":\"2014-02-24T13:35:51+02:00\",\"updated_at\":\"2016-02-24T09:38:31+02:00\",\"get_absolute_threshold\":null},{\"id\":549260,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":3236861,\"created_at\":\"2014-03-01T15:52:14+02:00\",\"updated_at\":\"2015-09-09T16:12:50+03:00\",\"get_absolute_threshold\":null},{\"id\":557067,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":4047788,\"created_at\":\"2014-03-07T15:06:13+02:00\",\"updated_at\":\"2014-03-07T15:06:15+02:00\",\"get_absolute_threshold\":null},{\"id\":557172,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":400325,\"created_at\":\"2014-03-07T16:00:34+02:00\",\"updated_at\":\"2015-01-28T18:35:04+02:00\",\"get_absolute_threshold\":null},{\"id\":565094,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":3736646,\"created_at\":\"2014-03-14T00:49:13+02:00\",\"updated_at\":\"2016-02-13T10:13:04+02:00\",\"get_absolute_threshold\":null},{\"id\":594056,\"have_it\":true,\"user_id\":132950,\"user_notes\":null,\"sku_id\":402679,\"created_at\":\"2014-04-05T00:07:06+03:00\",\"updated_at\":\"2014-12-12T18:07:10+02:00\",\"get_absolute_threshold\":null},{\"id\":660747,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":3123962,\"created_at\":\"2014-05-27T10:40:49+03:00\",\"updated_at\":\"2015-07-02T12:30:34+03:00\",\"get_absolute_threshold\":null},{\"id\":673633,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":4800166,\"created_at\":\"2014-06-05T12:58:29+03:00\",\"updated_at\":\"2015-11-09T14:02:02+02:00\",\"get_absolute_threshold\":null},{\"id\":684126,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":4148170,\"created_at\":\"2014-06-12T17:04:03+03:00\",\"updated_at\":\"2016-01-16T20:22:25+02:00\",\"get_absolute_threshold\":null},{\"id\":742245,\"have_it\":false,\"user_id\":132950,\"user_notes\":null,\"sku_id\":341408,\"created_at\":\"2014-07-23T21:23:06+03:00\",\"updated_at\":\"2015-12-24T20:18:26+02:00\",\"get_absolute_threshold\":null}],\"meta\":{\"pagination\":{\"total_results\":93,\"total_pages\":4,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "98",
+        "X-RateLimit-Reset": "1456439340",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Link": "<https://api.skroutz.gr/favorites?page=4>; rel=\"last\", <https://api.skroutz.gr/favorites?page=2>; rel=\"next\"",
+        "ETag": "W/\"d61cb7adad083748916760b640d1d6c6\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "388457823",
+        "X-Runtime": "0.071686",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "4915",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 25 Feb 2016 22:28:51 GMT",
+        "X-Varnish": "388457823",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb1",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
