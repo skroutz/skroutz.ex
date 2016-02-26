@@ -1,0 +1,49 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/vnd.skroutz+json; version=3",
+        "Authorization": "Bearer ACCESS_TOKEN"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.skroutz.gr/favorite_lists?"
+    },
+    "response": {
+      "body": "{\"favorite_lists\":[{\"id\":168373,\"name\":\"awesome\",\"category_id\":null},{\"id\":191974,\"name\":\"weird\",\"category_id\":null},{\"id\":516500,\"name\":\"wisho\",\"category_id\":null},{\"id\":699267,\"name\":\"κινητάκια\",\"category_id\":null},{\"id\":859883,\"name\":\"γαρδούμπες\",\"category_id\":null},{\"id\":861892,\"name\":\"a-test-list\",\"category_id\":null},{\"id\":-299,\"name\":\"Ποδήλατα\"},{\"id\":-69,\"name\":\"Ποντίκια\"},{\"id\":-1860,\"name\":\"Over Ear\"},{\"id\":-68,\"name\":\"Πληκτρολόγια\"},{\"id\":-40,\"name\":\"Κινητά Τηλέφωνα\"},{\"id\":-125,\"name\":\"Access Points\"},{\"id\":-1914,\"name\":\"Mirrorless\"},{\"id\":-2413,\"name\":\"Μηχανές Espresso\"},{\"id\":-1671,\"name\":\"Compact\"},{\"id\":-239,\"name\":\"Ενισχυτές Hi-Fi\"},{\"id\":-61,\"name\":\"USB Flash\"},{\"id\":-259,\"name\":\"Επιτραπέζια Παιχνίδια\"},{\"id\":-92,\"name\":\"Τσάντες Laptop\"},{\"id\":-341,\"name\":\"Πικάπ\"},{\"id\":-571,\"name\":\"Ηχεία\"},{\"id\":-1869,\"name\":\"Αξεσουάρ Ήχου\"},{\"id\":-453,\"name\":\"Ακουστικές Κιθάρες\"},{\"id\":-1859,\"name\":\"Earbuds\"},{\"id\":-34,\"name\":\"Βιβλία\"}],\"meta\":{\"pagination\":{\"total_results\":59,\"total_pages\":3,\"page\":1,\"per\":25}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Vary": "Accept-Encoding",
+        "X-RateLimit-Limit": "100",
+        "X-RateLimit-Remaining": "95",
+        "X-RateLimit-Reset": "1456507320",
+        "Status": "200 OK",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Link": "<https://api.skroutz.gr/favorite_lists?page=3>; rel=\"last\", <https://api.skroutz.gr/favorite_lists?page=2>; rel=\"next\"",
+        "ETag": "W/\"edca16322275da3d2f7c57549e6daf0e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "1895873855",
+        "X-Runtime": "0.023161",
+        "X-DNS-Prefetch-Control": "off",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "HEAD, GET, POST, PUT, DELETE",
+        "X-App": "kavula_ssl",
+        "Content-Length": "1179",
+        "Accept-Ranges": "bytes",
+        "Date": "Fri, 26 Feb 2016 17:21:46 GMT",
+        "X-Varnish": "1895873855",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Origin": "lb2",
+        "X-Cache": "MISS"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
