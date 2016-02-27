@@ -37,6 +37,8 @@ To install the package:
 - [Product](http://developer.skroutz.gr/api/v3/product/)
 - [Shop](http://developer.skroutz.gr/api/v3/shop/)
 - [Manufacturer](http://developer.skroutz.gr/api/v3/manufacturer/)
+- [Notification](http://developer.skroutz.gr/api/v3/notifications/)
+- [Favorite](http://developer.skroutz.gr/api/v3/favorites/)
 
 ## Usage
 
