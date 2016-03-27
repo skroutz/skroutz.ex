@@ -14,7 +14,7 @@ defmodule Skroutz.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :httpoison]]
   end
 
   defp deps do

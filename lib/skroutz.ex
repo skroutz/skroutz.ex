@@ -9,7 +9,6 @@ defmodule Skroutz do
   Creates a new Skroutz process, with the provided token
   """
   def new(token) when is_bitstring(token) do
-    HTTPoison.start
     Agent.start(fn -> %Config{token: token} end)
   end
 
@@ -17,7 +16,6 @@ defmodule Skroutz do
   Creates a new Skroutz process, with the provided Skroutz.Config
   """
   def new(config = %Config{}) when is_map(config) do
-    HTTPoison.start
     Agent.start(fn -> config end)
   end
 
@@ -25,7 +23,6 @@ defmodule Skroutz do
   Creates a new Skroutz process, with the provided Map
   """
   def new(config) when is_map(config) do
-    HTTPoison.start
     Agent.start(fn -> Map.merge(%Config{}, config) end)
   end
 
